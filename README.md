@@ -1,16 +1,31 @@
-# React + Vite
+# Moda Fashion Store 🌸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern fashion e-commerce website built with React JS.
 
-Currently, two official plugins are available:
+## About
+Moda is a fashion store targeting young women, offering clothes, bags, accessories, and shoes. Built as Phase 2 of CSCI390 Web Programming project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Browse products by category
+- Filter products by type
+- Add to cart with quantity selector
+- Search for products
+- Login and Register pages
+- Responsive design for mobile and desktop
 
-## React Compiler
+## Technologies Used
+- React JS (Vite)
+- React Router DOM
+- Bootstrap Icons
+- CSS3
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Setup Instructions
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open `http://localhost:5173`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Pages
+- Home, Clothes, Bags, Accessories, Shoes
+- Shopping Cart, Search, Login, Register
+- Contact, About
